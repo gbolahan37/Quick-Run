@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cossette+Titre:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/Style.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
 <body>
     <nav>
@@ -17,23 +18,29 @@
                 <p>24/7 Service</p>
             </div>
         </div>
-            <ul class="nav-links">
-                <li><a href="">Home</a></li>
+            <ul class="nav-links visible">
+                <li><a href="#home">Home</a></li>
                 <li><a href="">Service</a></li>
                 <li><a href="">How it Works</a></li>
                 <li><a href="">Request Errand</a></li>
                 <li><a href="">Contact</a></li>
+                <div class="nav-contact2">
+                   <img src="assets/img/telephone.png" alt="">
+                   <p>+234 902 164 8230</p>
+                </div>
+                <button class="get-start-btn2">Get Started</button>
             </ul>
         <div class="nav-contact">
             <img src="assets/img/telephone.png" alt="">
-            <p>+234 902 164 8230</p>
+            <p class="number">+234 902 164 8230</p>
         </div>
         <button class="get-start-btn">Get Started</button>
         <div class="ham-navbar">
-            <img src="assets/img/hamburger.png" alt="">
+            <img class="open" src="assets/img/hamburger.png" alt="">
+            <img class="close" src="assets/img/close.png" alt="" style="display: none;">
         </div>
     </nav>
-    <section class="hero-section">   
+    <section id="home" class="hero-section">   
         <div class="hero-content">
             <span class="hero-badge">Trusted by 10,000+ Lagos Residents</span>
             <h1 class="hero-title">
