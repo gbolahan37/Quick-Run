@@ -1,0 +1,8 @@
+.service-section{
+    display: flex;
+    justify-content: center;
+}
+.service-text{
+     color: #1447E6;
+     font-family: "Poppins", sans-serif;
+}
