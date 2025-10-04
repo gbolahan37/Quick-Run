@@ -10,7 +10,7 @@ img{
 nav{
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 20px;
     padding: 15px 40px 15px 40px;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -39,6 +39,9 @@ nav{
     border: 1px solid #1447E6;
     width: 100px;
     border-radius: 10px;
+    @media (max-width: 900px) {
+        display: none;
+    }
 }
 .our-service p{
     color: #1447E6;
@@ -135,9 +138,7 @@ nav{
     background-color: #1447E6;
     color: white;
     cursor: pointer;
-    @media (min-width: 1030px) {
-        display: none;
-    }
+    display: none;
     @media (max-width: 800px) {
         display: block;
         width: 100%;
@@ -166,6 +167,7 @@ nav{
     @media (max-width: 1024px) {
         display: block;
         text-align: center;
+        width: 100%;
     }
 }
 .hero-content{
@@ -180,8 +182,8 @@ nav{
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        /* padding: 0 270px 0 270px; */
-        width: 60%;
+        margin-bottom: 20px;
+        width: 90%;
     }
 }
 .hero-badge{
@@ -192,6 +194,7 @@ nav{
     margin-bottom: 30px;
     font-family: "Poppins", sans-serif;
     color: #1447E6;
+
 
     @media (max-width: 1024px) {
         display: flex;
@@ -214,7 +217,7 @@ nav{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: gray;
-    /* width: 50%; */
+    width: 100%;
 }
 .hero-btn{
     display: flex;
@@ -263,7 +266,7 @@ nav{
 }
 .hero-media img{
     width: 700px;
-    height: 390px;
+    height: 370px;
     margin-top: 30px;
     border-radius: 15px;
     /* position: relative;  */
