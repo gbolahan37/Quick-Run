@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html { scroll-behavior: smooth; }
+html{
+    scroll-behavior: smooth; 
+}
 img{
     max-width: 100%;
 }
@@ -168,6 +170,7 @@ nav{
         display: block;
         text-align: center;
         width: 100%;
+        padding: 150px 10px 50px 10px;
     }
 }
 .hero-content{
@@ -183,6 +186,7 @@ nav{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
+        padding: 0;
         width: 90%;
     }
 }
