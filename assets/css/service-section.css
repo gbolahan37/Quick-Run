@@ -80,15 +80,16 @@
   color: #1447e6;
 }
 .service-price {
-  background-color: rgb(226, 226, 226);
+  background-color: #ECEEF2;
+  font-family: "Poppins", sans-serif;
   height: 23px;
   padding: 3px 10px;
   border-radius: 7px;
   margin-top: 15px;
 }
 .service-price h5 {
-  color: rgb(100, 100, 100);
-  font-family: Segoe UI Emoji;
+  color: #000;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 .service-content-title h3 {
@@ -168,4 +169,37 @@
   width: 90%;
   height: 200px;
   border-radius: 15px;
+}
+.shopping{
+  background-color: #EFF6FF;
+}
+.packages{
+  background-color: #F0FDF4;
+}
+.cleaning{
+  background-color: #F0FDF4;
+}
+.repair{
+  background-color: #FFFBEB;
+}
+.Vehicle{
+  background-color: #FFF7ED;
+}
+.Beauty{
+  background-color: #FDF2F8;
+}
+.Childcare{
+  background-color: #F5F3FF;
+}
+.Tutoring{
+  background-color: #EEF2FF;
+}
+.Elder{
+  background-color: #FFF1F2;
+}
+.Food{
+  background-color: #FEF2F2;
+}
+.Event{
+  background-color: #F0FDFA;
 }
