@@ -315,3 +315,16 @@ nav{
     color: #69a3cf;
 
 }
+.fa-clock{
+    color: #00A63E;
+}
+.fa-shield{
+    color: #A939FB;
+}
+.state-number{
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 10px;
+}

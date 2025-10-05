@@ -46,6 +46,8 @@
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  border-top: 1px solid #E5E5E5;
+  padding-top: 30px;
 }
 
 .stat {
@@ -91,7 +93,7 @@
 }
 
 .back-btn:hover {
-  background-color: grey;
+  background-color: #ECECF0;
   color: #000;
 }
 
@@ -166,6 +168,7 @@ a {
 /* ---------- FORM FIELDS ---------- */
 .form-group {
   flex-direction: column;
+  margin-bottom: 0px;
 }
 
 .form-group label {
@@ -202,6 +205,8 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  margin-top: 20px
+  
 }
 .password-wrapper{
     width: 100%;
@@ -223,6 +228,9 @@ a {
 .eye-icon{
     cursor: pointer;
 }
+.unhide-eye{
+  color: grey;
+}
 .hide-eye{
     display: none;
     color: grey;
@@ -243,6 +251,7 @@ a {
   font-size: 16px;
   cursor: pointer;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .submit-btn:hover {

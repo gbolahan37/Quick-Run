@@ -1,0 +1,6 @@
+.connect{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex: 1;
+}
