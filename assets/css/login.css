@@ -203,7 +203,30 @@ a {
   font-weight: 500;
   font-size: 16px;
 }
-
+.password-wrapper{
+    width: 100%;
+    background-color: #ECECF0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.password-input{
+    width: 80%;
+    border: none;
+    background-color: transparent;
+}
+.password-input:focus{
+    outline: none;
+}
+.eye-icon{
+    cursor: pointer;
+}
+.hide-eye{
+    display: none;
+    color: grey;
+}
 .forgot-password {
   color: #1447E6;
 }
