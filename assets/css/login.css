@@ -1,0 +1,223 @@
+.Login-section{
+    padding: 20px;
+    background-color: #F2F6FF;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 30px;
+    align-items: center;
+    /* @media (max-width: 1016px) {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+    @media (max-width: 1016px) {
+        gap: 0;
+    }
+}
+.login-hero{
+    @media (max-width: 1016px) {
+        display: none;
+    }
+}
+.login-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: clamp(8px, 10vw, 32px);
+    color: #1447E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.login-subtitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: clamp(8px, 10vw, 1.1rem);
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.hero-image img{
+    border-radius: 10px;
+    width: 500px;
+    margin-bottom: 25px;
+}
+.login-stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.stat{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.stat-number{
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.blue{
+    color: #1447E6;
+    
+}
+.green{
+    color: #00A63E;
+}
+.purple{
+    color: #9810FA;
+}
+.stat-label{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #4A5565;
+}
+.back-btn{
+    padding: 3px 20px 3px 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 4px;
+    color: #4A5565;
+}
+.back-btn:hover{
+    background-color: grey;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #4A5565;
+}
+.login-form-container{
+    @media (max-width: 1016px) {
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+}
+.login-form-box{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login-form-box h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.login-form-box p{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: grey;
+}
+.role-tabs{
+    display: flex;
+    justify-content: center;
+    /* gap: 40px; */
+    background-color: #ECECF0;
+    border-radius: 10px;
+    padding: 4px 4px 0 4px;
+    margin-bottom: 24px;
+}
+.tab{
+    border: none;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    
+    
+}
+.active{
+    background-color: #FFFFFF;
+}
+/* .login-form{} */
+.form-group{
+    flex-direction: column;
+    /* width: 40%; */
+}
+.form-group label{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-size: 400;
+    
+}
+.form-input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #ECECF0;
+    border-radius: 5px;
+}
+.form-input:focus{
+    outline: none;
+}
+.form-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 25px;
+}
+.remember-me{
+    display: flex;
+    gap: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.forgot-password{
+    color: #1447E6;
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px 48px 10px 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1447E6;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;    
+}
+.submit-btn:hover{
+    background-color: blue;
+}
+.sigup-option{
+    padding-top: 30px;
+    border-top: 1px solid #E5E5E5;
+    gap: 10px;
+}
+.sigup-option p{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: grey;
+}
+.sigup-option p a{
+    color: #1447E6;
+}
