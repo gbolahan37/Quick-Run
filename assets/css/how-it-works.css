@@ -1,3 +1,8 @@
+.how-it-works-section{
+  background-color: #F9FAFB;
+  padding: 40px;
+  margin-top: 80px;
+}
 .section-header{
     margin-right: 216px;
     margin-left: 216px;
@@ -30,4 +35,206 @@
     font-weight: 400;
     font-size: 1.2rem;
     color: grey;
+}
+.step-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 70px;
+  align-items: center;
+
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}
+.step-content{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.step{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.step-icon{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFF6FF;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  position: relative;
+}
+.step-number{
+  position: absolute;
+  left: 4px;
+  bottom: 7000px;
+  color: #999;
+  font-weight: 600;
+}
+.fa-green{
+  background-color: #F0FDF4;
+}
+.fa-purple{
+  background-color: #FAF5FF;
+}
+.fa-mobile{
+  color: #155DFC;
+  font-size: 2rem;
+}
+.fa-user{
+  color: #00A63E;
+  font-size: 2rem;
+}
+.fa-star{
+  color: #F54A00;
+}
+.re{
+  color: #9810FA;
+  font-size: 2rem;
+}
+.fa-orange{
+  background-color: #FFF7ED;
+}
+.step-info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 85%;
+  @media (max-height: 1024px) {
+    width: 100%;
+  }
+
+}
+.step-title{
+    /* margin-top: 25px; */
+    font-family: Segoe UI Emoji;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.step-description{
+  font-family: 'Inter' sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0.01rem;
+  color: #4B5563;
+}
+.step-image{
+
+  position: relative;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 370px;
+  @media (max-width: 1024px) {
+
+    margin-top: 30px;
+  }
+}
+.step-image img{
+  border-radius: 15px;
+  width: 700px;
+  height: 370px;
+  @media (max-width: 1024px) {
+    width: 100%;
+    margin-top: 30px;
+    height: 370px;
+  }
+}
+.active{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    @media (max-width: 1024px) {
+    
+      top: 50px;
+  }
+}
+.rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.features{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex: 1;
+
+  @media (max-width: 1030px) {
+    flex-wrap: wrap;
+  }
+}
+.feedback-card{
+  width: 375px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.feature-icon{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #DBEAFE;
+  margin-inline: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  align-items: center;
+}
+.feature-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+.feature-description{
+  font-family: 'Poppins', sans-serif;
+  color: #4B5563;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.user-blue{
+  color: #155DFC;
+  font-size: 1.5rem;
+}
+.green{
+  background-color: #DBFCE7
+}
+.green-box{
+  color: #00A63E;
+  font-size: 1.5rem;
+}
+.purple-star{
+  font-size: 1.5rem;
+  color: #9810FA;
+}
+.purple{
+  background-color: #F3E8FF;
 }
