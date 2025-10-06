@@ -80,7 +80,7 @@
   color: #1447e6;
 }
 .service-price {
-  background-color: #ECEEF2;
+  background-color: #eceef2;
   font-family: "Poppins", sans-serif;
   height: 23px;
   padding: 3px 10px;
@@ -125,6 +125,9 @@
   font-size: 30px;
   margin-right: 8px;
 }
+.blue {
+  color: #1447e6;
+}
 .green {
   color: #00a63e;
 }
@@ -163,43 +166,67 @@
   display: flex;
   justify-content: center;
   margin-top: 70px;
+  font-family: Segoe UI Emoji;
 }
 .service-footer-holder {
   background-color: #f0f6ff;
   width: 90%;
   height: 200px;
   border-radius: 15px;
+  padding-top: 30px;
+  text-align: center;
 }
-.shopping{
-  background-color: #EFF6FF;
+.service-footer-badge h2 i {
+  color: #1447e6;
+  font-size: 1.9rem;
 }
-.packages{
-  background-color: #F0FDF4;
+.service-footer-badge h2 {
+  font-weight: 100;
 }
-.cleaning{
-  background-color: #F0FDF4;
+.service-footer-text p {
+  color: rgb(100, 100, 100);
+  margin-top: 20px;
 }
-.repair{
-  background-color: #FFFBEB;
+.service-footer-end {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
-.Vehicle{
-  background-color: #FFF7ED;
+.service-footer-end h5 {
+  font-weight: 100;
+  color: rgb(100, 100, 100);
 }
-.Beauty{
-  background-color: #FDF2F8;
+.shopping {
+  background-color: #eff6ff;
 }
-.Childcare{
-  background-color: #F5F3FF;
+.packages {
+  background-color: #f0fdf4;
 }
-.Tutoring{
-  background-color: #EEF2FF;
+.cleaning {
+  background-color: #f0fdf4;
 }
-.Elder{
-  background-color: #FFF1F2;
+.repair {
+  background-color: #fffbeb;
 }
-.Food{
-  background-color: #FEF2F2;
+.Vehicle {
+  background-color: #fff7ed;
 }
-.Event{
-  background-color: #F0FDFA;
+.Beauty {
+  background-color: #fdf2f8;
+}
+.Childcare {
+  background-color: #f5f3ff;
+}
+.Tutoring {
+  background-color: #eef2ff;
+}
+.Elder {
+  background-color: #fff1f2;
+}
+.Food {
+  background-color: #fef2f2;
+}
+.Event {
+  background-color: #f0fdfa;
 }
