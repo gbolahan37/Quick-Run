@@ -1,3 +1,6 @@
+.customer-stories{
+  padding: 20px;
+}
 .customer-badge {
   display: flex;
   justify-content: center;
@@ -53,7 +56,7 @@
   justify-content: center;
 }
 .customer-content {
-  height: 300px;
+  /* height: 300px; */
   width: 330px;
   background-color: white;
   border-radius: 15px;
@@ -173,15 +176,22 @@ h6 {
   justify-content: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  padding: 30px;
 }
 .customer-footer-body {
-  height: 140px;
+  /* height: 140px; */
   background-color: #f2f5ff;
-  width: 90%;
+  width: 100%;
   border-radius: 15px;
   display: flex;
-  justify-content: center;
-  gap: 150px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 25px;
+  @media (max-width: 690px) {
+    flex-wrap: wrap;
+  }
 }
 .customer-footer-title h1, h4 {
   font-family: Segoe UI Emoji;
