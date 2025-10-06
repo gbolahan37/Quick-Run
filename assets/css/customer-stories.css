@@ -1,0 +1,204 @@
+.customer-badge {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.customer-text {
+  color: #1447e6;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgb(230, 230, 230);
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 7px;
+  padding: 2px 10px;
+  margin-bottom: 30px;
+}
+.customer-header {
+  margin-right: 216px;
+  margin-left: 216px;
+  @media (max-width: 1030px) {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  @media (max-width: 800px) {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+.customer-header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+.customer-header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: grey;
+}
+.customer-main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 30px;
+  justify-content: center;
+}
+.customer-content {
+  height: 300px;
+  width: 330px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  transition: all 0.5s;
+  padding: 25px;
+}
+.customer-content:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+}
+.customer-header {
+  margin-right: 216px;
+  margin-left: 216px;
+  margin-bottom: 30px;
+  @media (max-width: 1030px) {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  @media (max-width: 800px) {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+.customer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+.customer-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: grey;
+}
+.customer-icon i {
+  color: #bedbff;
+  font-size: 2.4rem;
+}
+.customer-rating {
+  margin-top: 10px;
+}
+.customer-rating i {
+  color: #fdc700;
+  font-size: 0.8rem;
+}
+.customer-review p {
+  color: black;
+  font-family: Segoe UI Emoji;
+}
+.customer-purchase {
+  background-color: #eceef2;
+  font-family: "Poppins", sans-serif;
+  border-radius: 7px;
+  padding-left: 10px;
+  width: 120px;
+  height: 22px;
+  position: relative;
+}
+.bill {
+  width: 90px;
+}
+.customer-purchase h5 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 12px;
+  position: absolute;
+}
+.customer-name {
+  background-color: #dbeafe;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+.customer-name h4 {
+  font-family: Segoe UI Emoji;
+  font-weight: 300;
+  color: #355dfc;
+  position: absolute;
+  margin-left: 5px;
+  left: 9px;
+  margin-top: 9px;
+}
+.customer-info {
+  display: flex;
+  gap: 10px;
+}
+.client-info {
+  font-family: Segoe UI Emoji;
+}
+.client-info h4,
+h5,
+h6 {
+  line-height: 0rem;
+  font-weight: 300;
+}
+.client-info h5 {
+  color: #6a7282;
+}
+.client-info h6 {
+  color: #99b6d8;
+}
+.customer-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.customer-footer-body {
+  height: 140px;
+  background-color: #f2f5ff;
+  width: 90%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.customer-footer-title h1, h4 {
+  font-family: Segoe UI Emoji;
+  font-weight: 300;
+}
+.customer-footer-title h4 {
+    color: #6a7282;
+}
+.blue{
+    color: #155dfc;
+}
+.green{
+    color: #00a63e;
+}
+.purple{
+    color: #9810fa;
+}
+.orange{
+    color: #f54a00;
+}
