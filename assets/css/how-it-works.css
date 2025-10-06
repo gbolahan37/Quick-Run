@@ -1,0 +1,33 @@
+.section-header{
+    margin-right: 216px;
+    margin-left: 216px;
+    margin-bottom: 30px;
+    @media (max-width: 1030px) {
+      margin-right: 120px;
+      margin-left: 120px;
+    }
+    @media (max-width: 800px) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+}
+.section-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: grey;
+}
