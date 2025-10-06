@@ -166,6 +166,7 @@ nav{
     background-color: #F0F7FF;
     justify-content: space-between;
     gap: 32px;
+    margin-top: 70px;
     @media (max-width: 1024px) {
         display: block;
         text-align: center;
@@ -275,9 +276,7 @@ nav{
 .hero-media img{
     width: 700px;
     height: 370px;
-    /* margin-top: 30px; */
     border-radius: 15px;
-    /* position: relative;  */
     @media (max-width: 1024px) {
         width: 100%;
     }
