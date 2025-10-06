@@ -162,7 +162,7 @@
   color: #45556c;
 }
 .service-footer {
-  height: 200px;
+  /* height: 200px; */
   display: flex;
   justify-content: center;
   margin-top: 70px;
@@ -171,9 +171,9 @@
 .service-footer-holder {
   background-color: #f0f6ff;
   width: 90%;
-  height: 200px;
+  /* height: 200px; */
   border-radius: 15px;
-  padding-top: 30px;
+  padding: 30px;
   text-align: center;
 }
 .service-footer-badge h2 i {
@@ -192,6 +192,10 @@
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+
+  @media (max-width: 420px) {
+    display: block  ;
+  }
 }
 .service-footer-end h5 {
   font-weight: 100;
