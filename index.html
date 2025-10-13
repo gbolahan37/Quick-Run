@@ -33,6 +33,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/request-service.css">
     <script src="assets/js/script.js" defer></script>
   </head>
@@ -48,7 +49,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#service">Service</a></li>
         <li><a href="#how-it-works">How it Works</a></li>
-        <li><a href="">Request Errand</a></li>
+        <li><a href="#request">Request Errand</a></li>
         <li><a href="">Contact</a></li>
         <div class="nav-contact2">
           <img src="assets/img/telephone.png" alt="" />
@@ -407,7 +408,7 @@
               <li>Light housekeeping</li>
               <li>Transportation</li>
             </ul>
-          </div>
+          </div><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
         </div>
 
         <div class="service-content">
@@ -625,7 +626,7 @@
       </section>
     </section>
 
-    <section class="request-service">
+    <section class="request-service" id="request">
       <div class="service-badge">
         <h3 class="service-text">Request Service</h3>
       </div>
@@ -636,24 +637,100 @@
         </p>
       </div>  
       <div class="request-container">
-        <h2>Errand Details</h2>
-        <form action="">
+        <form action="" class="" class="request-form">
+          <div style="display: flex; gap: 7px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#1447E6" viewBox="0 0 256 256"><path d="M223.68,66.15,135.68,18h0a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32h0l80.34,44L128,120,47.66,76ZM40,90l80,43.78v85.79L40,175.82Zm96,129.57V133.82L216,90v85.78Z"></path></svg>
+            <h2 class="request-form-header">Errand Details</h2>
+          </div>
           <div class="request-form">
-            <div class="request-group">
-              <label for="">Full Name</label>
-              <input type="full name" placeholder="Enter your full name">
+            <div class="customer-detail">
+              <div class="request-group">
+                <label for="">Full Name</label>
+                <input type="full name" name="full-name" placeholder="Enter your full name">
+              </div>
+              <div class="request-group">
+                <label for="">Phone Number</label>
+                <input type="phone-number" name="phone-number" placeholder="+234 xxx xxx xxxx">
+              </div>
             </div>
-            <div class="request-group">
-              <label for="">Phone Number</label>
-              <input type="phone-number" placeholder="+234 xxx xxx xxxx">
+            <div class="customer-detail">
+              <div class="request-group">
+                <label for="">Pickup Location</label>
+                <input type="location" name="pickup-location" placeholder="Enter pickup address in Lagos">
+              </div>
+              <div class="request-group">
+                <label for="">Drop-off Location</label>
+                <input type="location" name="drop-off-location" placeholder="Enter destination address">
+              </div>
             </div>
-            <div class="request-group">
-              <label for="">Pickup Location</label>
-              <input type="map" placeholder="Enter pickup address in Lagos">
-            </div>
-            <div class="request-group">
-              <label for="">Drop-off Location</label>
-              <input type="full name" placeholder="Enter destination address">
+          </div>
+          <div class="service-type">
+            <h3>Type of service</h3>
+            <div class="service-option">
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#155DFC" viewBox="0 0 256 256"><path d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"></path></svg>
+                </div>
+                <h4 class="request-title">Shopping</h4>
+                <p class="request-price">From ₦1,500</p>
+              </label>
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#008236" viewBox="0 0 256 256"><path d="M223.68,66.15,135.68,18h0a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32h0l80.34,44L128,120,47.66,76ZM40,90l80,43.78v85.79L40,175.82Zm96,129.57V133.82L216,90v85.78Z"></path></svg>
+                </div>
+                <h4 class="request-title">Package Delivery</h4>
+                <p class="request-price">From ₦1,000</p>
+              </label>
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#C7161D" viewBox="0 0 256 256"><path d="M80,56V24a8,8,0,0,1,16,0V56a8,8,0,0,1-16,0Zm40,8a8,8,0,0,0,8-8V24a8,8,0,0,0-16,0V56A8,8,0,0,0,120,64Zm32,0a8,8,0,0,0,8-8V24a8,8,0,0,0-16,0V56A8,8,0,0,0,152,64Zm96,56v8a40,40,0,0,1-37.51,39.91,96.59,96.59,0,0,1-27,40.09H208a8,8,0,0,1,0,16H32a8,8,0,0,1,0-16H56.54A96.3,96.3,0,0,1,24,136V88a8,8,0,0,1,8-8H208A40,40,0,0,1,248,120ZM200,96H40v40a80.27,80.27,0,0,0,45.12,72h69.76A80.27,80.27,0,0,0,200,136Zm32,24a24,24,0,0,0-16-22.62V136a95.78,95.78,0,0,1-1.2,15A24,24,0,0,0,232,128Z"></path></svg>
+                </div>
+                <h4 class="request-title">Food & Catering</h4>
+                <p class="request-price">From ₦3,000</p>
+              </label>
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#008236" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
+                </div>
+                <h4 class="request-title">House Cleaning</h4>
+                <p class="request-price">₦2,000 Per Hour</p>
+              </label>
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#BB4D00" viewBox="0 0 256 256"><path d="M226.76,69a8,8,0,0,0-12.84-2.88l-40.3,37.19-17.23-3.7-3.7-17.23,37.19-40.3A8,8,0,0,0,187,29.24,72,72,0,0,0,88,96,72.34,72.34,0,0,0,94,124.94L33.79,177c-.15.12-.29.26-.43.39a32,32,0,0,0,45.26,45.26c.13-.13.27-.28.39-.42L131.06,162A72,72,0,0,0,232,96,71.56,71.56,0,0,0,226.76,69ZM160,152a56.14,56.14,0,0,1-27.07-7,8,8,0,0,0-9.92,1.77L67.11,211.51a16,16,0,0,1-22.62-22.62L109.18,133a8,8,0,0,0,1.77-9.93,56,56,0,0,1,58.36-82.31l-31.2,33.81a8,8,0,0,0-1.94,7.1L141.83,108a8,8,0,0,0,6.14,6.14l26.35,5.66a8,8,0,0,0,7.1-1.94l33.81-31.2A56.06,56.06,0,0,1,160,152Z"></path></svg>
+                </div>
+                <h4 class="request-title">Home Repairs</h4>
+                <p class="request-price">₦1,000 Per Hour</p>  
+              </label>
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#C80961" viewBox="0 0 256 256"><path d="M157.73,113.13A8,8,0,0,1,159.82,102L227.48,55.7a8,8,0,0,1,9,13.21l-67.67,46.3a7.92,7.92,0,0,1-4.51,1.4A8,8,0,0,1,157.73,113.13Zm80.87,85.09a8,8,0,0,1-11.12,2.08L136,137.7,93.49,166.78a36,36,0,1,1-9-13.19L121.83,128,84.44,102.41a35.86,35.86,0,1,1,9-13.19l143,97.87A8,8,0,0,1,238.6,198.22ZM80,180a20,20,0,1,0-5.86,14.14A19.85,19.85,0,0,0,80,180ZM74.14,90.13a20,20,0,1,0-28.28,0A19.85,19.85,0,0,0,74.14,90.13Z"></path></svg>
+                </div>
+                <h4 class="request-title">Beauty $ Wellness</h4>
+                <p class="request-price">₦2,000 Per Hour</p>
+              </label>
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#008236" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
+                </div>
+                <h4 class="request-title">Childcare</h4>
+                <p class="request-price">₦2,000 Per Hour</p>
+              </label>
+              <label class="service-card">
+                <input type="radio" name="service" value="shopping" checked>
+                <div class="request-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" fill="#008236" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
+                </div>
+                <h4 class="request-title">Elder Care</h4>
+                <p class="request-price">₦2,000 Per Hour</p>
+              </label>
             </div>
           </div>
         </form>
