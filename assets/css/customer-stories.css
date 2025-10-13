@@ -114,24 +114,26 @@
 .customer-review p {
   color: black;
   font-family: Segoe UI Emoji;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .customer-purchase {
   background-color: #eceef2;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
   padding-left: 10px;
-  width: 120px;
+  width: 145px;
   height: 22px;
-  position: relative;
+ 
 }
 .bill {
-  width: 90px;
+  width: 110px;
 }
 .customer-purchase h5 {
   color: #000;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  margin-top: 12px;
+  margin-top: 5px;
   position: absolute;
 }
 .customer-name {
@@ -147,8 +149,7 @@
   font-family: Segoe UI Emoji;
   font-weight: 300;
   color: #355dfc;
-  position: absolute;
-  margin-left: 5px;
+  margin-left: 2px;
   left: 9px;
   margin-top: 9px;
 }
@@ -158,11 +159,12 @@
 }
 .client-info {
   font-family: Segoe UI Emoji;
+  margin-top: 30px;
 }
 .client-info h4,
 h5,
 h6 {
-  line-height: 0rem;
+  line-height: 1rem;
   font-weight: 300;
 }
 .client-info h5 {
