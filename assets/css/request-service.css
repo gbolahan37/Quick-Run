@@ -9,11 +9,8 @@
               rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     padding: 20px;
     width: 100%;
-    max-width: 800px; /* responsive limit */
-    margin: 40px auto; /* centers horizontally */
-}
-.request-form{
-    
+    max-width: 800px;
+    margin: 40px auto;
 }
 .request-form-header{
     font-family: "Inter" sans-serif;
@@ -32,7 +29,7 @@
 }
 .request-group{
     flex: 1;
-    min-width: 0px;   /* smaller base size */
+    min-width: 0px;
     width: 100%;
     box-sizing: border-box;
     margin-top: 20px;
@@ -97,7 +94,6 @@
 .request-icon{
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
     border-radius: 50%;
 }
 .request-title{
