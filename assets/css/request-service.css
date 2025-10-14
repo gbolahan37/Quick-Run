@@ -72,8 +72,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-gap: 10px;
-
-   
 }
 .service-card{
   cursor: pointer;
@@ -93,7 +91,7 @@
     border: 2px solid #007bff;
     box-shadow: 0 0 10px rgba(0,123,255,0.3);
     border-radius: 16px;
-    background-color: #f0f8ff; /* light blue highlight */
+    background-color: #f0f8ff;
 }
 .request-icon{
     display: flex;
