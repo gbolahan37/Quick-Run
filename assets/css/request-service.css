@@ -85,11 +85,23 @@
 .service-option input[type="radio"] {
   display: none;
 }
-.service-option input[type="radio"]:checked + .service-card{
-    border: 2px solid #007bff;
-    box-shadow: 0 0 10px rgba(0,123,255,0.3);
-    border-radius: 16px;
-    background-color: #f0f8ff;
+.service-card input[type="radio"]:checked + .request-icon,
+.service-card input[type="radio"]:checked ~ h4,
+.service-card input[type="radio"]:checked ~ p,
+.service-card input[type="radio"]:checked ~ svg,
+.service-card input[type="radio"]:checked ~ * {
+  color: #155DFC;
+}
+
+.service-card input[type="radio"]:checked + * {
+  color: #155DFC;
+}
+
+.service-card:has(input[type="radio"]:checked) {
+  border-color: #155DFC;
+  background-color: #EFF6FF;
+  box-shadow: 0 0 0 2px rgba(0, 130, 54, 0.2);
+  transform: scale(1.02);
 }
 .request-icon{
     display: flex;
