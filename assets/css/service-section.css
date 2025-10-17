@@ -57,7 +57,6 @@
   justify-content: center;
 }
 .service-content {
-  height: 410px;
   width: 380px;
   background-color: white;
   border-radius: 15px;
@@ -71,6 +70,7 @@
 .service-div {
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 .service-icon {
   background-color: rgb(230, 230, 230);
@@ -83,7 +83,6 @@
 .service-price {
   background-color: #eceef2;
   font-family: "Poppins", sans-serif;
-  height: 23px;
   padding: 3px 10px;
   border-radius: 7px;
   margin-top: 15px;
@@ -235,4 +234,46 @@
 }
 .Event {
   background-color: #f0fdfa;
+}
+
+/* service button  */
+
+.service-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.service-btn{
+  padding: 6px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #1447e6;
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 100%;
+}
+
+.service-search{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 0 20px 0 20px;
+}
+#service-search-bar{
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+#service-search-bar:focus{
+  outline: none;
+}
+.search-bg{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #F3F3F5;
+  padding: 8px 20px;
+  border-radius: 6px;
+  width: 600px;
 }

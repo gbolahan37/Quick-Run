@@ -12,8 +12,8 @@
       margin-left: 120px;
     }
     @media (max-width: 800px) {
-      margin-right: 20px;
-      margin-left: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
     }
 }
 .section-title{
@@ -224,7 +224,7 @@
   color: #155DFC;
   font-size: 1.5rem;
 }
-.green{
+.green2{
   background-color: #DBFCE7
 }
 .green-box{
@@ -235,6 +235,6 @@
   font-size: 1.5rem;
   color: #9810FA;
 }
-.purple{
+.purple1{
   background-color: #F3E8FF;
 }
