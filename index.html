@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/request-service.css">
     <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/search.js" defer></script>
   </head>
   <body>
     <nav>
@@ -149,6 +150,16 @@
           efficiency.
         </p>
       </div>
+      <div class="service-search">
+        <div class="search-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
+          <input type="search" name="" id="service-search-bar" placeholder="Search for a service...">
+        </div>
+      </div>
+      <p id="no-results" style="display:none; text-align:center; color:gray; margin-top:20px;">
+        No services found 😕
+      </p>
+
       <div class="service-main">
         <div class="service-content">
           <div class="service-div">
@@ -176,6 +187,9 @@
               <li>Retail shopping</li>
               <li>Receipt photos</li>
             </ul>
+          </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
           </div>
         </div>
         <div class="service-content">
@@ -205,6 +219,9 @@
               <li>Proof of delivery</li>
             </ul>
           </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
+          </div>
         </div>
         <div class="service-content">
           <div class="service-div">
@@ -232,6 +249,9 @@
               <li>Post-party cleanup</li>
               <li>Move-in/out cleaning</li>
             </ul>
+          </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
           </div>
         </div>
 
@@ -262,6 +282,9 @@
               <li>Appliance repair</li>
             </ul>
           </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
+          </div>
         </div>
 
         <div class="service-content">
@@ -290,6 +313,9 @@
               <li>Vehicle inspection</li>
               <li>Maintenance pickup</li>
             </ul>
+          </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
           </div>
         </div>
 
@@ -320,6 +346,9 @@
               <li>Makeup services</li>
             </ul>
           </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
+          </div>
         </div>
 
         <div class="service-content">
@@ -348,6 +377,9 @@
               <li>Educational activities</li>
               <li>Meal preparation</li>
             </ul>
+          </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
           </div>
         </div>
 
@@ -381,6 +413,9 @@
               <li>Skill development</li>
             </ul>
           </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
+          </div>
         </div>
 
         <div class="service-content">
@@ -408,7 +443,10 @@
               <li>Light housekeeping</li>
               <li>Transportation</li>
             </ul>
-          </div><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
+          </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
+          </div>
         </div>
 
         <div class="service-content">
@@ -437,6 +475,9 @@
               <li>Meal preparation</li>
               <li>Special diets</li>
             </ul>
+          </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
           </div>
         </div>
 
@@ -467,6 +508,9 @@
               <li>Event coordination</li>
             </ul>
           </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
+          </div>
         </div>
 
         <div class="service-content">
@@ -495,6 +539,9 @@
               <li>Presentation setup</li>
               <li>Business errands</li>
             </ul>
+          </div>
+          <div class="service-button">
+            <a href="#request"><button class="service-btn">Request Now</button></a>
           </div>
         </div>
       </div>
@@ -610,7 +657,7 @@
           <p class="feature-description">All our runners undergo background checks and identity verification for your safety.</p>
         </div>
         <div class="feedback-card">
-          <div class="feature-icon green">
+          <div class="feature-icon green2">
             <i class="fa-solid fa-box-open green-box"></i>
           </div>
           <h4 class="feature-title">Real-time Tracking</h4>
@@ -637,7 +684,7 @@
         </p>
       </div>  
       <div class="request-container">
-        <form action="" class="" class="request-form">
+        <form action="https://formspree.io/f/xldpazpo" method="POST" class="request-form">
           <div style="display: flex; gap: 7px;">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#1447E6" viewBox="0 0 256 256"><path d="M223.68,66.15,135.68,18h0a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32h0l80.34,44L128,120,47.66,76ZM40,90l80,43.78v85.79L40,175.82Zm96,129.57V133.82L216,90v85.78Z"></path></svg>
             <h2 class="request-form-header">Errand Details</h2>
@@ -767,7 +814,7 @@
           </div>
           <div class="request-group">
             <label >Additional Details</label>
-            <textarea name="" id="message-area" placeholder="Provide any specific instructions, preferences, or additional details about your errand..."></textarea>
+            <textarea name="specific-instruction" id="message-area" placeholder="Provide any specific instructions, preferences, or additional details about your errand..."></textarea>
           </div>
           <div class="submittion-btn">
             <input type="submit" value="Submit Errand Request">

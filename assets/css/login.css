@@ -168,6 +168,7 @@ a {
 .form-group {
   flex-direction: column;
   margin-bottom: 0px;
+  width: 100%;
 }
 
 .form-group label {
@@ -276,15 +277,10 @@ a {
 .sigup-option p a {
   color: #1447E6;
 }
-
-/* ---------- RESPONSIVENESS FIX ---------- */
 @media (max-width: 1016px) {
-  .login-container {
-    /
-  }
 
   .login-hero {
-    display: none; /* hide hero on small screens */
+    display: none;
   }
 
   .login-form-container {
