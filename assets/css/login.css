@@ -48,6 +48,11 @@
   gap: 32px;
   border-top: 1px solid #E5E5E5;
   padding-top: 30px;
+
+  @media (max-width: 544px) {
+    flex-direction: column;
+    gap: 32px
+  }
 }
 
 .stat {

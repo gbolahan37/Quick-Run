@@ -1,6 +1,7 @@
 .service-section {
   margin-bottom: 80px;
-  
+  padding: 25px;
+  position: relative;
 }
 .service-badge {
   display: flex;
@@ -94,7 +95,6 @@
   margin-top: 2px;
 }
 .service-content-title h3 {
-  margin-top: 25px;
   font-family: Segoe UI Emoji;
   font-weight: lighter;
 }
@@ -240,11 +240,15 @@
 
 .service-button{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 10px;
   margin-top: 10px;
 }
+.service-button button a{
+  color: #FFFFFF;
+}
 .service-btn{
-  padding: 6px 10px;
+  padding: 10px 15px;
   width: 100%;
   border-radius: 5px;
   border: none;
@@ -276,4 +280,141 @@
   padding: 8px 20px;
   border-radius: 6px;
   width: 600px;
+}
+
+.detail-btn{
+  padding: 10px 15px;
+  border: 1px solid #D5D8DF;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+/* details container  */
+.detail-section{
+  backdrop-filter: blur(10px);
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  padding: 20px;
+  display: none;
+}
+.detail-container{
+  background-color: #FFFFFF;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 9px;
+  margin-inline: auto;
+}
+.detail-header{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.detail-title{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.detail-close{
+  cursor: pointer;
+}
+.detail-paragraph{
+  margin-top: 20px;
+  font-family: Segoe UI Emoji;
+  font-size: 16x;
+  color: #7F7F8F;
+}
+.estimated-time{
+  background-color: #EFF6FF;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 6px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.estimate{
+  font-size: 16px;
+  font-family: Segoe UI Emoji;
+}
+.time{
+  font-size: 14px;
+  font-family: Segoe UI Emoji;
+  color: #7F7F8F;
+}
+.requirements{
+  background-color: #FAF5FF;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 6px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.requ{
+  font-size: 18px;
+  font-family: Segoe UI Emoji;
+}
+.task{
+  font-size: 14px;
+  font-family: Segoe UI Emoji;
+  color: #7F7F8F;
+}
+.feature{
+  margin-top: 20px;
+  padding: 20px;
+}
+.feature-header{
+  font-size: 16px;
+  font-family: Segoe UI Emoji;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.feature-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  @media (max-width: 348px) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.List::marker{
+  color: #00a63e;
+  font-size: 2rem;
+}
+.Service-coverage{
+  background-color: #F0FDF4;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 6px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.coverage{
+  font-size: 18px;
+  font-family: Segoe UI Emoji;
+}
+.Availability{
+  font-size: 16px;
+  font-family: Segoe UI Emoji;
+  color: #7F7F8F;
+}
+.detail-request-btn{
+  padding: 12px 15px;
+  width: 100%;
+  background-color: #1447e6;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
 }

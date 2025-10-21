@@ -4,11 +4,10 @@
   const noResults = document.getElementById("no-results");
 
   if (!searchInput || services.length === 0) {
-    // nothing to do if elements don't exist
     return;
   }
 
-  // optional debounce helper (waits 150ms after user stops typing)
+  
   function debounce(fn, delay = 150) {
     let t;
     return function (...args) {
@@ -25,7 +24,6 @@
     const query = normalize(searchInput.value);
     let anyVisible = false;
 
-    // if query empty -> show all
     if (query === "") {
       services.forEach(card => {
         card.style.display = "";
@@ -35,7 +33,6 @@
     }
 
     services.forEach(card => {
-      // defensive queries: some cards might not have these nodes
       const titleEl = card.querySelector(".service-content-title h3");
       const descEl = card.querySelector(".service-content-text p");
 
