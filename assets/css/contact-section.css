@@ -1,0 +1,358 @@
+.contact-section {
+  background-color: #f9fafb;
+  padding-bottom: 30px;
+}
+.contact-badge {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.contact-text {
+  color: #1447e6;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgb(230, 230, 230);
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 7px;
+  padding: 2px 10px;
+  margin-bottom: 30px;
+}
+.contact-header {
+  margin-right: 216px;
+  margin-left: 216px;
+  margin-bottom: 20px;
+  @media (max-width: 1030px) {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  @media (max-width: 800px) {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+.contact-header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+.contact-header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: grey;
+}
+.contact-container {
+  display: flex;
+  padding-left: 70px;
+  padding-right: 70px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.first-container {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-methods {
+  background-color: white;
+  border-radius: 15px;
+  border: solid 1px rgb(232, 232, 232);
+  padding: 15px;
+}
+.contact-method-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container-title {
+  margin-bottom: 30px;
+}
+.method-1 {
+  background-color: #f0fdf4;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.method-2 {
+  background-color: #eff6ff;
+}
+.method-3 {
+  background-color: #faf5ff;
+}
+.method-4 {
+  background-color: #fef2f2;
+}
+.method-logo {
+  font-size: 13px;
+  height: 20px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+.method-info {
+  font-family: Segoe UI Emoji;
+}
+
+.business-hours {
+  background-color: white;
+  border-radius: 15px;
+  border: solid 1px rgb(232, 232, 232);
+  padding: 15px;
+}
+.working-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.working-hours h5:first-of-type {
+  color: grey;
+}
+.hr {
+  background-color: rgb(237, 237, 237);
+  height: 1px;
+}
+.monday-friday {
+  display: flex;
+  justify-content: space-between;
+  font-family: Segoe UI Emoji;
+}
+.emergency-services {
+  background-color: #f0fdf4;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #a7ffc7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.emergency-services p {
+  color: #00a63e;
+  font-size: 12px;
+  font-family: Segoe UI Emoji;
+}
+.service-areas {
+  background-color: white;
+  border-radius: 15px;
+  border: solid 1px rgb(232, 232, 232);
+  padding: 15px;
+}
+.lagos-areas h5 {
+  font-family: Segoe UI Emoji;
+  color: rgb(73, 73, 73);
+}
+.area-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.area-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+.areas {
+  font-family: Segoe UI Emoji;
+  background-color: #eceef2;
+  padding: 5px;
+  border-radius: 8px;
+}
+.areas h5 {
+  font-weight: 600;
+}
+.dont-see-your-area {
+  background-color: #eff6ff;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #b0c9ff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.dont-see-your-area p {
+  font-size: 12px;
+  font-family: Segoe UI Emoji;
+}
+.second-container {
+  background-color: white;
+  width: 67%;
+  border-radius: 15px;
+  border: solid 1px rgb(232, 232, 232);
+  padding: 15px;
+  height: fit-content;
+}
+.form h5 {
+  font-family: Segoe UI Emoji;
+  color: rgb(73, 73, 73);
+}
+.form-title {
+  margin-bottom: 10px;
+}
+.forms-container {
+  margin-top: 30px;
+  font-family: Segoe UI Emoji;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.full-name i {
+  font-size: 11px;
+}
+.full-name input {
+  background-color: #f3f3f5;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 7px;
+  border-radius: 10px;
+  font-family: Segoe UI Emoji;
+  padding-right: 225px;
+  padding-left: 15px;
+  width: 377px;
+}
+.form-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.email-address i {
+  font-size: 11px;
+}
+.email-address input {
+  background-color: #f3f3f5;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 7px;
+  border-radius: 10px;
+  font-family: Segoe UI Emoji;
+  padding-left: 15px;
+  width: 377px;
+}
+.drop-down {
+  width: 377px;
+  background-color: #f3f3f5;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 7px;
+  border-radius: 10px;
+  font-family: Segoe UI Emoji;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.drop-down option {
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.drop-down:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+.message {
+  margin-top: 20px;
+}
+.message i {
+  font-size: 11px;
+}
+.message input {
+  background-color: #f3f3f5;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 7px;
+  border-radius: 10px;
+  font-family: Segoe UI Emoji;
+  padding-right: 225px;
+  padding-left: 15px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.send-message {
+  background-color: #155dfc;
+  margin-top: 10px;
+  text-align: center;
+  padding: 9px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+.contact-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+.our-office {
+  background-color: white;
+  border-radius: 15px;
+  border: solid 1px rgb(232, 232, 232);
+  padding: 15px;
+  width: 100%;
+  padding-bottom: 20px;
+  font-family: Segoe UI Emoji;
+}
+.our-office .hr {
+  margin-top: 5px;
+}
+.lagos-hq h5 {
+  color: gray;
+  font-family: Segoe UI Emoji;
+}
+.visit-us {
+  margin-top: 5px;
+  color: gray;
+  font-family: Segoe UI Emoji;
+}
+.action-1 {
+  background-color: white;
+  border-radius: 10px;
+  border: solid 1px rgb(232, 232, 232);
+  padding: 8px;
+}
+.action-1 i {
+  margin-right: 7px;
+  margin-left: 5px;
+  color: black;
+  font-size: 14px;
+}
+.action-1:hover {
+  background-color: #eceef2;
+  transition: 0.5s;
+}
+.quick-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.socials {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.socials div {
+  border-radius: 8px;
+  border: solid 1px rgb(232, 232, 232);
+  padding: 3px;
+}
+.platforms{
+  margin-top: 10px;
+  color: gray;
+}
+.instagram {
+  color: #e81280;
+}
