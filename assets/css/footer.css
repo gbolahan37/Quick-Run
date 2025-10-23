@@ -8,7 +8,8 @@
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
-    border-bottom: 1px soild #1E2939;
+    border-bottom: 1px solid #1E2939;
+    padding-bottom: 40px;
 }
 .company-info{
     display: flex;
@@ -63,9 +64,10 @@
 }
 .footer-title{
     font-size: 20px;
-    font-family: 'Poppins' sans-serif;
+    font-family: "Apple Color Emoji", sans-serif;
     color: #ffffff;
     margin-bottom: 15px;
+    font-weight: 200;
 }
 ul{
     list-style: none;
@@ -75,12 +77,108 @@ li{
 }
 li a{
     color: #D1D5DC;
-    font-size: 17px;
-    font-family: Segoe UI Emoji;
-    font-weight: 100;
+    font-size: 16px;
+    font-family: "Noto Color Emoji", sans-serif;
+    font-weight: 300;
     transition: 1s;
 }
 li a:hover{
     color: #51A2FF;
     transition: 0.1s;
+}
+
+.footer-newsletter{
+    margin-top: 40px;
+    border-bottom: 1px solid #1E2939;
+    padding-bottom: 40px;
+}
+.newsletter-text{
+    color: #D1D5DC;
+    font-size: 16px;
+    font-family: "Noto Color Emoji", sans-serif;
+    font-weight: 300;
+}
+.newsletter-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+.newsletter-input{
+    padding: 12px 20px;
+    /* width: 330px; */
+    border-radius: 6px;
+    border: 1px solid #364153;
+    background-color: #1E2939;
+    color: #ffffff;
+}
+.newsletter-button{
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 1px solid #364153;
+    background-color: #155DFC;
+    color: #ffffff;
+    cursor: pointer;
+}
+.footer-payment{
+    margin-top: 40px;
+    border-bottom: 1px solid #1E2939;
+    padding-bottom: 40px;
+}
+.payment-title{
+    font-size: 20px;
+    font-family: "Apple Color Emoji", sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+.payments-text{
+    color: #99A1AF;
+    font-size: 14px;
+    font-family: "Noto Color Emoji", sans-serif;
+    font-weight: 300;
+}
+.payment-method{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.payment-card{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border: 1px solid #1E2939;
+    padding: 8px 10px;
+    border-radius: 7px;
+    background-color: #1E2939;
+}
+.payment-card img{
+    width: 30px;
+}
+.payment-card span{
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer-buttom{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+.footer-buttom p{
+    color: #99A1AF;
+    font-size: 14px;
+}
+.footer-legal-links{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.footer-legal-links a{
+    color: #99A1AF;
+    font-size: 14px;
 }

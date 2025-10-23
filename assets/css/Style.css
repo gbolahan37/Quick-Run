@@ -6,6 +6,20 @@
 html {
     scroll-behavior: smooth; 
 }
+:root {
+  --font-heading: 'Poppins', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+body, p, a, li, span {
+  font-family: var(--font-body);
+  font-weight: 400;
+}
 img{
     max-width: 100%;
 }
