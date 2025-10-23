@@ -160,7 +160,7 @@
 }
 .area-1 {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 5px;
 }
 .areas {
@@ -287,10 +287,8 @@
   margin-top: 7px;
   border-radius: 10px;
   font-family: Segoe UI Emoji;
-  padding-right: 225px;
-  padding-left: 15px;
   padding-bottom: 60px;
-  /* width: 100%; */
+  width: 100%;
 }
 .send-message {
   background-color: #155dfc;

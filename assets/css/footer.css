@@ -1,0 +1,86 @@
+.footer{
+    width: 100%;
+    background-color: #101828;
+    padding: 40px 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    border-bottom: 1px soild #1E2939;
+}
+.company-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-logo{
+    color: #51A2FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: clamp(8px, 10vw, 32px);
+}
+.footer-description{
+    font-size: 17px;
+    font-family: Segoe UI Emoji;
+    color: #D1D5DC;
+    max-width: 300px;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+.contact-group{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.contact-group span{
+    color: #D1D5DC;
+    font-family: Segoe UI Emoji;
+}
+.footer-socials{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-link{
+    background-color: #1E2939;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.social-link i{
+    color: #ffffff;
+    font-size: 18px;
+}
+.footer-title{
+    font-size: 20px;
+    font-family: 'Poppins' sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+li a{
+    color: #D1D5DC;
+    font-size: 17px;
+    font-family: Segoe UI Emoji;
+    font-weight: 100;
+    transition: 1s;
+}
+li a:hover{
+    color: #51A2FF;
+    transition: 0.1s;
+}
