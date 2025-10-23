@@ -176,6 +176,7 @@ li a:hover{
 .footer-legal-links{
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
     align-items: center;
 }
 .footer-legal-links a{
