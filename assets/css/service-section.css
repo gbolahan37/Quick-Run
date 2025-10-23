@@ -40,14 +40,14 @@
   font-size: 2.5rem;
   margin-bottom: 24px;
 }
-.service-header p {
+.service-header p{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Segoe UI Emoji;
   font-weight: 400;
-  font-size: 1.2rem;
+  /* font-size: 1.1rem; */
   color: grey;
 }
 .service-main {
@@ -72,6 +72,7 @@
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  align-items: center;
 }
 .service-icon {
   background-color: rgb(230, 230, 230);
@@ -86,7 +87,8 @@
   font-family: "Poppins", sans-serif;
   padding: 3px 10px;
   border-radius: 7px;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .service-price h5 {
   color: #000;
@@ -385,7 +387,7 @@
   }
 }
 
-.List::marker{
+.detail-feature::marker{
   color: #00a63e;
   font-size: 2rem;
 }
@@ -417,4 +419,39 @@
   border-radius: 6px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.pricing-info{
+  background: linear-gradient(90deg, #f3fef5 0%, #f0f9ff 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+}
+.price-header{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-title{
+  font-size: 1.4rem;
+  font-family: ui-sans-serif;
+  font-weight: 300;
+}
+.pricing-description{
+  text-align: center;
+  font-size: 16px;
+  font-family: Segoe UI Emoji;
+  color: #7F7F8F;
+  margin-top: 10px;
+}
+.pricing-example{
+  text-align: center;
+  font-size: 16px;
+  font-family: Segoe UI Emoji;
+  color: #7F7F8F;
+  margin-top: 10px;
 }

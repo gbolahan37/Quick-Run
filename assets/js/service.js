@@ -8,7 +8,7 @@ let estTime = document.querySelector(".time")
 let toDoTask = document.querySelector(".task")
 let detailIcon = document.querySelector("#my-icon")
 let detailBackground = document.querySelector("#detailback")
-let feature = document.querySelectorAll(".List")
+let features = document.querySelectorAll(".detail-feature")
 
 
 let detail = [
@@ -20,7 +20,7 @@ let detail = [
         requirements: "Provide shopping list and preferred stores",
         icon: "fa-cart-shopping",
         background: "shopping",
-        feature: [
+        feature:[
             "Fresh produce selection",
             "Pharmacy deliveries",
             "Retail shopping",
@@ -36,6 +36,12 @@ let detail = [
         icon: "fa-box-open",
         color: "green",
         background: "shopping",
+        feature:[
+            "Same-day delivery",
+            "Package tracking",
+            "Secure handling",
+            "Secure handling",
+        ]
     },
     {
         title: "House Cleaning",
@@ -46,6 +52,12 @@ let detail = [
         icon: "fa-house",
         color: "green",
         background: "shopping",
+        feature:[
+            "Deep house cleaning",
+            "Regular maintenance",
+            "Post-party cleanup",
+            "Move-in/out cleaning",
+        ]
     },
     {
         title: "Home Repairs",
@@ -56,6 +68,12 @@ let detail = [
         icon: "fa-wrench",
         color: "green",
         background: "shopping",
+        feature:[
+            "Plumbing fixes",
+            "Electrical work",
+            "Carpentry",
+            "Appliance repair",
+        ]
     },
     {
         title: "Vehicle Services",
@@ -66,6 +84,12 @@ let detail = [
         icon: "fa-car-side",
         color: "green",
         background: "shopping",
+        feature:[
+            "Car wash & detailing",
+            "Fuel filling",
+            "Vehicle inspection",
+            "Maintenance pickup",
+        ]
     },
     {
         title: "Beauty & Wellness",
@@ -76,6 +100,12 @@ let detail = [
         icon: "fa-scissors",
         color: "green",
         background: "shopping",
+        feature:[
+            "Hair styling",
+            "Manicure & pedicure",
+            "Massage therapy",
+            "Makeup services",
+        ]
     },
     {
         title: "Childcare & Babysitting",
@@ -86,6 +116,12 @@ let detail = [
         icon: "fa-child",
         color: "green",
         background: "shopping",
+        feature:[
+            "Professional babysitting",
+            "Child supervision",
+            "Educational activities",
+            "Meal preparation",
+        ]
     },
     {
         title: "Tutoring & Education",
@@ -96,6 +132,12 @@ let detail = [
         icon: "fa-graduation-cap",
         color: "green",
         background: "shopping",
+        feature:[
+            "Subject tutoring",
+            "Exam preparation",
+            "Assignment help",
+            "Assignment help",
+        ]
     },
     {
         title: "Elder Care",
@@ -106,6 +148,12 @@ let detail = [
         icon: "fa-heart",
         color: "green",
         background: "shopping",
+        feature:[
+            "Companion care",
+            "Medication reminders",
+            "Light housekeeping",
+            "Transportation",
+        ]
     },
     {
         title: "Food & Catering",
@@ -116,6 +164,12 @@ let detail = [
         icon: "fa-mug-hot",
         color: "green",
         background: "shopping",
+        feature:[
+            "Restaurant pickup",
+            "Catering orders",
+            "Meal preparation",
+            "Special diets",
+        ]
     },
     {
         title: "Event Support",
@@ -126,6 +180,12 @@ let detail = [
         icon: "fa-camera",
         color: "green",
         background: "shopping",
+        feature:[
+            "Event photography",
+            "Setup & decoration",
+            "Equipment rental",
+            "Event coordination",
+        ]
     },
     {
         title: "Business Services",
@@ -136,6 +196,12 @@ let detail = [
         icon: "fa-suitcase",
         color: "green",
         background: "shopping",
+        feature:[
+            "Office assistance",
+            "Meeting support",
+            "Presentation setup",
+            "Business errands",
+        ]
     },
 ]
 
@@ -155,9 +221,13 @@ function displaydetail (index){
     toDoTask.innerText = detail[index].requirements
     detailIcon.className = "fa-solid " + detail[index].icon
     detailBackground.className = "service-icon " + detail[index].background
-   console.log(feature.innerText = detail[index].feature[index]) 
+   
+   for (let i = 0; i <= 3; i++){
+    features[i].innerText = detail[index].feature[i]
+   }
 }
 
 for(let i = 0; i <= 11; i++){
     detailButton[i].addEventListener("click", () => displaydetail(i))
 }
+
