@@ -10,6 +10,8 @@
     flex-wrap: wrap;
     border-bottom: 1px solid #1E2939;
     padding-bottom: 40px;
+    max-width: 1240px;
+    margin-inline: auto;
 }
 .company-info{
     display: flex;
@@ -91,6 +93,8 @@ li a:hover{
     margin-top: 40px;
     border-bottom: 1px solid #1E2939;
     padding-bottom: 40px;
+    max-width: 1240px;
+    margin-inline: auto;
 }
 .newsletter-text{
     color: #D1D5DC;
@@ -126,6 +130,8 @@ li a:hover{
     margin-top: 40px;
     border-bottom: 1px solid #1E2939;
     padding-bottom: 40px;
+    max-width: 1240px;
+    margin-inline: auto;
 }
 .payment-title{
     font-size: 20px;
@@ -168,6 +174,8 @@ li a:hover{
     justify-content: space-between;
     gap: 32px;
     align-items: center;
+    max-width: 1240px;
+    margin-inline: auto;
 }
 .footer-buttom p{
     color: #99A1AF;

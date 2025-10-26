@@ -18,6 +18,10 @@
     font-weight: 400;
     margin-bottom: 25px;
 }
+.request-form{
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 30px;
+}
 .customer-detail{
     display: flex;
     flex-wrap: wrap;
@@ -35,14 +39,19 @@
     margin-top: 20px;
 
 }
+.request-label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .request-group input{
     border: none;
     background-color: transparent;
     width: 100%;
     padding: 10px;
     background-color: #F3F3F5;
-    margin-bottom: 25px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .request-group input:focus{
@@ -58,6 +67,23 @@
     color: #1f2937;
     margin-bottom: 6px;
     
+}
+.service-location{
+    margin-top: 30px;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 30px;
+}
+.schedule{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-top: 25px;
+}
+.service-type{
+    margin-top: 30px;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 30px;
 }
 .service-type h3{
     font-family: 'Inter' sans-serif;

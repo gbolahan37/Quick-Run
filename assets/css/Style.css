@@ -176,11 +176,17 @@ nav{
 .hero-section{
     margin-inline: auto;
     padding: 150px 40px 70px 40px;
-    display: flex;
     background-color: #F0F7FF;
+    margin-top: 70px;
+    
+}
+.hero-container{
+    display: flex;
     justify-content: space-between;
     gap: 32px;
     margin-top: 70px;
+    max-width: 1240px;
+    margin-inline: auto;
     @media (max-width: 1024px) {
         display: block;
         text-align: center;

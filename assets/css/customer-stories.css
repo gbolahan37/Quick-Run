@@ -54,6 +54,8 @@
   margin-top: 100px;
   gap: 30px;
   justify-content: center;
+  max-width: 1240px;
+  margin-inline: auto;
 }
 .customer-content {
   /* height: 300px; */
@@ -179,6 +181,8 @@ h6 {
   margin-top: 80px;
   margin-bottom: 80px;
   padding: 30px;
+  max-width: 1240px;
+  margin-inline: auto;
 }
 .customer-footer-body {
   /* height: 140px; */
